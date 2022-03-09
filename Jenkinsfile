@@ -1,3 +1,4 @@
+// specifies that any node can execute the pipeline
 node {
   checkout scm
   stage('Build') {
